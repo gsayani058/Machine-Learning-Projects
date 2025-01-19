@@ -1,1 +1,57 @@
+# Sports Images Classification
+
+Dataset Link : https://drive.google.com/drive/folders/168kbX_a3qSn2Q786RzTpUpXU3sZ-7GcP?usp=share_link
+
+## Overview
+This project involves building and training a Convolutional Neural Network (CNN) to classify sports images into their respective categories. The dataset contains images of various sports, categorized into 22 classes. The project demonstrates a complete workflow, including data exploration, preprocessing, model building, training, and evaluation, to achieve accurate classification.
+
+---
+
+## Problem Statement
+Develop a model that classifies images into specific sports categories based on their visual content. The goal is to identify the best-performing model for accurate classification.
+
+---
+
+## Key Features
+- **Dataset Handling**: Loaded and processed a dataset of sports images, containing 22 categories such as football, cricket, basketball, and more.
+- **Data Preprocessing**: Resized images to a uniform size of (200, 200) and encoded labels for training.
+- **Model Architecture**: Built a CNN model with:
+  - Two convolutional layers with max pooling.
+  - Dense layers for feature extraction.
+  - Dropout layers for regularization.
+- **Training**: Trained the model with a training-validation split, achieving an accuracy of **91.58%** on the training set.
+- **Evaluation**: Validated the model on a test dataset and analyzed the accuracy and loss over epochs.
+- **Future Scope**: The model could be further improved by fine-tuning hyperparameters, using transfer learning, or experimenting with advanced architectures like ResNet or EfficientNet.
+
+---
+
+## Technologies Used
+- Python
+- TensorFlow
+- OpenCV
+- NumPy
+- Matplotlib
+- Scikit-learn
+
+---
+
+## Dataset
+The dataset contains 22 sports categories:
+- Examples: Badminton, Baseball, Basketball, Boxing, Chess, Cricket, Fencing, Football, and more.
+- Total Images: 14,281
+- Image Dimensions: 200 x 200 pixels (resized)
+
+---
+
+## Requirements
+Install the required Python libraries before running the project:
+- `tensorflow`
+- `opencv-python`
+- `numpy`
+- `matplotlib`
+- `scikit-learn`
+
+You can install them using:
+```bash
+pip install tensorflow opencv-python numpy matplotlib scikit-learn
 
